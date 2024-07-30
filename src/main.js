@@ -51,7 +51,7 @@ const app = createApp(App).use(VueAxios, axios).use(i18n).use(SimpleTypeahead).c
 })
 .use(VueGoogleMaps, {
       load: {
-      key: 'AIzaSyBGDY4wcrsxKuVrjMpfV2pQ43rzwfUMZEE',
+      key: '',
       libraries: "places",
       // version: "3.53"
       v: "weekly"
